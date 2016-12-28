@@ -1,2 +1,8 @@
 //backup zip file db
 mysqldump -u root -psimsdm db_simsdm_dev | gzip -9 > backup_db_simsdm_dev_29.sql.gz
+
+//list disk and size
+df -h
+
+//list file and size
+du --max-depth=1 -m -x -h /var/log
