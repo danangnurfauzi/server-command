@@ -7,9 +7,12 @@ df -h
 //list file and size
 du --max-depth=1 -m -x -h /var/log
 
+//empty file
+> nameOfFile
+
 //login mysql
 mysql -u usernameMysql -p
 
-
 //display query live
-//SHOW FULL PROCESSLIST
+SHOW FULL PROCESSLIST
+
